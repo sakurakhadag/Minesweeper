@@ -188,6 +188,7 @@ def terminate_game(grid,display_grid,grid_dimensions):
 
 
 def main():
+    #yes I know this is not how it's done. I just couldn't remember what was usually used and didn't want to unindent the whole thing.
     clear()
     while(True):
         level=int(raw_input('Enter level:\n0->Beginner\n1->Intermediate\n'));
